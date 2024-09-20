@@ -10,7 +10,7 @@ loginBtn.addEventListener('click', function (event) {
     const pinNumV = pinNum.value;
 
     if (phoneNumV === '01812345678' && pinNumV === '1234') {
-        window.location.href = './index.html';
+        window.location.href = '/index.html';
     } else {
         alert('Your Phone Number or Pin is Wrong. Please Try Again Later.');
     }
